@@ -1,6 +1,8 @@
 TO run the app run these command in terminal
 1. npm i
 2. npm start
+
+you can see the menu after scrolling down and can add item to cart from there
  
 to go to the cart page click on the cart icon on the home page and to come back on home page click on home icon
 
