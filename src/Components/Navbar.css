@@ -1,0 +1,62 @@
+.abc {
+  background-color: black;
+  height: 80px;
+  color: white;
+  transition: all 0.3s ease;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+.Head {
+    margin-left: 40%;
+}
+
+.Head2 {
+    margin-left: 39%;
+}
+
+.hero { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 50%vh;
+    background: url('./img/base.jpg') center;
+    object-fit: contain; 
+
+  }
+
+  .content h1 {
+    font-weight: 700;
+    font-size: 5rem;
+    margin-bottom: 1rem;
+    color: pink;
+    text-align: center;
+  }
+   
+  .content p {
+    font-size: 1.8rem;
+    line-height: 2;
+    color: white;
+    text-align: center;
+    text-shadow: 1px -2px black, 
+                 0 10px 20px black;
+  }
+  .navbar-brand {
+    font-family: "Ubuntu";
+    display: flex;
+    align-items: center;
+    font-size: 4rem;
+    /* margin-left: 20%; */
+    font-weight: bold;
+  }
+  .Link{
+    margin-left: 25%;
+    border: 7px solid black;
+    /* background-color: white; */
+    border-radius: 100px 100px;
+    box-sizing: border-box;
+    justify-content: center;
+    color: white;
+  }
